@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[table]{xcolor}
+\usepackage[a4paper,margin=2cm]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes.misc,shapes.arrows,shapes.multipart,shapes.geometric,chains,matrix,positioning,scopes,decorations.pathmorphing,decorations.pathreplacing,shadows,calc,trees,backgrounds}
+\usepackage{tikz-qtree}
+\usepackage{calc}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{seqsplit}
+\usepackage{multicol}
+\usepackage[output-decimal-marker={,}]{siunitx}
+\title{Sponsored by Quentin}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\setlength{\parindent}{0pt}
+
+\newcommand{\code}[1]{\textnormal{\texttt{#1}}}
+\newcommand{\codeseq}[1]{{\ttfamily\seqsplit{#1}}}
+\newcommand{\emphasize}[1]{\textbf{#1}}
+\newcommand*{\circled}[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+\newcommand{\var}[1]{\textit{#1}}
+\newcommand{\solutionSpace}{}
+
+\title{Probeklausurlösung sponsored by Quentin}
+\begin{document}
+\maketitle
+\section{Einerkomplement}
+\input{texSolutions/fromonescomplsol}
+
+\input{texSolutions/toonescomplsol}
+
+\section{Zweierkomplement}
+\input{texSolutions/fromtwoscomplsol}
+
+\input{texSolutions/totwoscomplsol}
+
+\section{Gleitkommazahlen}
+\input{texSolutions/fromfloatsol}
+
+\input{texSolutions/tofloatsol}
+
+\section{Wahrheitstafeln}
+\input{texSolutions/fromtruthtablesol}
+\input{texSolutions/totruthtablesol}
+\pagebreak
+\section{Insertionsort}
+\input{texSolutions/insertionsortsol}
+
+\section{Quicksort}
+\input{texSolutions/quicksortsol}
+\pagebreak
+\section{Mergesort with Splitting}
+\input{texSolutions/mergesortwithsplittingsol}
+\pagebreak
+\section{Binary Search Tree}
+\input{texSolutions/binsearchtreesol}
+\section{AVL Bäume}
+\input{texSolutions/avltreesol}
+\pagebreak
+\section{Breadth First Search}
+\input{texSolutions/bfssol}
+\pagebreak
+\section{Depth First Search}
+\input{texSolutions/dfssol}
+\section{Dijkstra}
+\input{texSolutions/dijkstrasol}
+\pagebreak
+\section{Huffman}
+\input{texSolutions/tohuffsol}
+\section{Hamming}
+\input{texSolutions/tohammingsol}
+\input{texSolutions/fromhammingsol}
+\pagebreak
+\section{Hashing}
+\input{texSolutions/hashDivisionsol}
+\input{texSolutions/hashMultiplicationsol}
+\input{texSolutions/hashDivisionLinearsol}
+\input{texSolutions/hashMultiplicationLinearsol}
+\input{texSolutions/hashDivisionQuadraticsol}
+\input{texSolutions/hashMultiplicationQuadraticsol}
+\end{document}
