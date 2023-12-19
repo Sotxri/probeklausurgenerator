@@ -8,7 +8,7 @@ java -jar .\exercisegenerator.jar -a totruthtable -x embedded -l 3 -e .\texExerc
 java -jar .\exercisegenerator.jar -a fromtruthtable -x embedded -l 3 -e .\texExercises\fromtruthtable.tex -t .\texSolutions\fromtruthtablesol.tex
 java -jar .\exercisegenerator.jar -a insertionsort -x embedded -l 10 -e .\texExercises\insertionsort.tex -t .\texSolutions\insertionsortsol.tex
 java -jar .\exercisegenerator.jar -a quicksort -x embedded -l 10 -e .\texExercises\quicksort.tex -t .\texSolutions\quicksortsol.tex
-java -jar .\exercisegenerator.jar -a mergesortWithSplitting -x embedded -l 10 -e .\texExercises\mergesortwithsplitting.tex -t .\texSolutions\mergesortwithsplittingsol.tex
+java -jar .\exercisegenerator.jar -a mergesort -x embedded -l 10 -e .\texExercises\mergesortwithsplitting.tex -t .\texSolutions\mergesortwithsplittingsol.tex
 java -jar .\exercisegenerator.jar -a binsearchtree -x embedded -l 6 -e .\texExercises\binsearchtree.tex -t .\texSolutions\binsearchtreesol.tex
 java -jar .\exercisegenerator.jar -a avltree -x embedded -l 6 -e .\texExercises\avltree.tex -t .\texSolutions\avltreesol.tex
 java -jar .\exercisegenerator.jar -a bfs -x embedded -e .\texExercises\bfs.tex -t .\texSolutions\bfssol.tex
