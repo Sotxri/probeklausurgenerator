@@ -1,6 +1,6 @@
 # Probeklausurgenerator
 
-Basiert auf dem exercisegenerator, benötigt also auch mindestens Java JDK 17 und pdflatex 
+Basiert auf dem exercisegenerator, benötigt also auch mindestens Java 17 und pdflatex 
 Nur funktionell für Windows. 
 Generiert mit einem simplen bash script latex dateien welche es zu super-latex dateien zusammenfügt und in PDFs umwandelt. 
 

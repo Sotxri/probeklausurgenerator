@@ -1,0 +1,29 @@
+\documentclass{article} 
+\usepackage[ngerman]{babel} 
+\usepackage[T1]{fontenc} 
+\usepackage[table]{xcolor} 
+\usepackage[a4paper,margin=2cm]{geometry} 
+\usepackage{tikz} 
+\usetikzlibrary{arrows,shapes.misc,shapes.arrows,shapes.multipart,shapes.geometric,chains,matrix,positioning,scopes,decorations.pathmorphing,decorations.pathreplacing,shadows,calc,trees,backgrounds} 
+\usepackage{tikz-qtree} 
+\usepackage{calc} 
+\usepackage{array} 
+\usepackage{amsmath} 
+\usepackage{enumerate} 
+\usepackage{seqsplit} 
+\usepackage{multicol} 
+\usepackage[output-decimal-marker={,}]{siunitx} 
+\setlength{\parindent}{0pt} 
+\newcommand{\code}[1]{\textnormal{\texttt{#1}}} 
+\newcommand{\codeseq}[1]{{\ttfamily\seqsplit{#1}}} 
+\newcommand{\emphasize}[1]{\textbf{#1}} 
+\newcommand*{\circled}[1]{\tikz[baseline=(char.base)]{ \node[shape=circle,draw,inner sep=2pt] (char) {#1};}} 
+\newcommand{\var}[1]{\textit{#1}} 
+\newcommand{\solutionSpace}{} 
+\title{Cram sponsored by Quentin} 
+\begin{document} 
+\maketitle 
+\section{Zweierkomplement}
+\input{texExercises/totwoscompl_1}
+\\
+\end{document}
